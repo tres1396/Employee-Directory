@@ -10,18 +10,6 @@ function Header() {
       <div className="subheader">
         <p>Use the search bar to narrow down your results.</p>
       </div>
-      <div className="search">
-      <div className="search-bar">
-        <input
-          type="email"
-          class="form-control"
-          id="exampleInputEmail1"
-          aria-describedby="emailHelp"
-          placeholder="Search"
-        ></input>
-      </div>
-      </div>
-      {/* closing div */}
     </div>
   );
 }
