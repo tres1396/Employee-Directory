@@ -1,8 +1,9 @@
 import React from "react";
+import "./style.css";
 
 function Header(props) {
   return (
-    <div>
+    <div className="full-header">
       <header>
         <h1>Employee Directory</h1>
       </header>

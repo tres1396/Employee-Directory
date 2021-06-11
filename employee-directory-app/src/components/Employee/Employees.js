@@ -4,7 +4,7 @@ import "./style.css"
 function Employees(props) {
   return (
         <tr>
-          <td className="employeeImage">
+          <td>
             <img alt={props.firstName} src={props.picture} />
           </td>
           <td>

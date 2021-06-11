@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import Employees from "./Employee/Employees";
-import API from "../utils/API";
+import Employees from "../Employee/Employees";
+import API from "../../utils/API";
+import "./style.css"
 
 
 class Worker extends Component {
@@ -45,7 +46,7 @@ class Worker extends Component {
           <table className="table table-striped table-bordered table-condensed">
             <thead className="thead">
               <tr className="centered">
-                <th>Image</th>
+                <th className="employee-image">Image</th>
                 <th>Name</th>
                 <th>Email</th>
                 <th>Phone</th>
