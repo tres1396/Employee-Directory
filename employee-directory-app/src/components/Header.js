@@ -1,7 +1,6 @@
 import React from "react";
-import "./style.css";
 
-function Header() {
+function Header(props) {
   return (
     <div>
       <header>
@@ -9,6 +8,9 @@ function Header() {
       </header>
       <div className="subheader">
         <p>Use the search bar to narrow down your results.</p>
+      </div>
+      <div className="search-bar">
+      { <input /*onChange={(event) => props.startSort(event)}*/ type="text" placeholder="Search" name="search"></input> }
       </div>
     </div>
   );

@@ -1,16 +1,13 @@
 import React from "react";
-import Header from "./components/Header/Header";
-import Search from "./components/Search/Search";
-import Table from "./components/Table/Table";
-import 'bootstrap/dist/css/bootstrap.min.css';
-
-
+import Header from "./components/Header";
+import Employees from "./components/Employee/Employees";
+import Worker from "./components/SortSearch";
 function App() {
   return (
     <div>
       <Header />
-      <Search />
-      <Table />
+      <Employees />
+      <Worker />
     </div>
   )
 }
